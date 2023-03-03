@@ -1,0 +1,79 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.age {
+	margin-top: -20px;
+}
+
+.category {
+	color: orange;
+}
+
+.list {
+	color: crimson;
+	margin-top: -15px;
+}
+
+.why-goals {
+	color: crimson;
+}
+
+.outdoors {
+	float: right;
+	height: 110px;
+	box-shadow: 3px 3px 6px rgb(104, 103, 103);
+}
+
+.submit-button {
+	color: crimson;
+	background-color: #ddd;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px gray;
+}
+
+.suggest {
+	color: orange;
+}
+
+.button {
+	background-color: yellow;
+	padding: 6px;
+	box-shadow: 2px 2px 3px gray;
+	border-radius: 5px;
+}
