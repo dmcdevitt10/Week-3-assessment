@@ -77,3 +77,31 @@ img {
 	box-shadow: 2px 2px 3px gray;
 	border-radius: 5px;
 }
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px
+}
+
+.google {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2px;
+}
+
+.friend {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2px;
+}
+
+.other {
+	display: flex;
+	flex-direction: row;
+}
+
+.other-input{
+	width: 90px;
+}
+	

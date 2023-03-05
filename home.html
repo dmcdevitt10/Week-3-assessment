@@ -29,16 +29,26 @@
 		<h2>Contact Us</h2>
 		<form id="contact">
 			<p>How did you hear about us?</p>
-
-			<label for="Google">Google</label><input type="checkbox" id="Google" value="Google"/>
-			<label for="Google">A friend</label><input type="checkbox" id="Google" value="Google"/>
-			<label for="Google">Other</label><input type="checkbox" id="Google" value="Google"/><br>
-
+			<div class="flex">
+				<div class="google">
+					<input type="checkbox"/>
+					<label>Google</label>
+				</div>
+				<div class="friend">
+					<input type="checkbox"/>
+					<label>A friend</label>
+				</div>
+				<div class="other">
+					<input type="checkbox"/>
+					<label>Other</label>
+				</div>
+				<input type="text" placeholder="Other" class="other-input">
+			</div>
 			Your name:
-			<input type="text">
+			<input type="text" placeholder="Name">
 
 			Message:
-			<input type="textarea">
+			<input type="textarea" placeholder="Message">
 
 			<input type="submit">
 
